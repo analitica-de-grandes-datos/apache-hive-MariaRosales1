@@ -16,7 +16,7 @@ Escriba el resultado a la carpeta `output` de directorio de trabajo.
 
 */
 
-NSERT OVERWRITE LOCAL DIRECTORY 'output'
+INSERT OVERWRITE LOCAL DIRECTORY 'output'
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 
 SELECT letra, letras, COUNT(letras)
